@@ -1,17 +1,17 @@
 {
   "server": {
-    "port": 3004,
+    "port": 3001,
     "host": "0.0.0.0"
   },
   "ai": {
-    "model": "openai/gpt-3.5-turbo",
-    "maxTokens": 180,
-    "temperature": 1.0,
+    "model": "deepseek/deepseek-r1-0528",
+    "maxTokens": 5000,
+    "temperature": 0.8,
     "provider": "openrouter"
   },
   "game": {
-    "name": "幽默大师",
-    "personality": "风趣幽默的玩家，善于用幽默化解紧张气氛，但关键时刻也很认真",
+    "name": "伪装大师",
+    "personality": "善于伪装的玩家，善于用幽默的方式伪装自己",
     "strategy": "balanced",
     "speakingStyle": "witty"
   },
